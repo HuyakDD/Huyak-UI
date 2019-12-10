@@ -1,5 +1,7 @@
 # Huyak UI library
 
+[![Build Status](https://travis-ci.org/HuyakDD/Huyak-UI.svg?branch=master)](https://travis-ci.org/HuyakDD/Huyak-UI)
+
 Created with:
 
 - **React, Emotion** for creating and styling components,
@@ -8,4 +10,4 @@ Created with:
 - **Styleguidist** for live development and documentation generation,
 - **TravisCI** for auto deployment to GitHub pages.
 
-Deployed documentation: ["okvv.github.io/huyak-ui"](https://okvv.github.io/huyak-ui/)
+Deployed documentation: ["huyakdd.github.io/Huyak-UI"](https://huyakdd.github.io/Huyak-UI/)
