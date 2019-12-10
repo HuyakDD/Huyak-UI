@@ -11,3 +11,5 @@ Created with:
 - **TravisCI** for auto deployment to GitHub pages.
 
 Deployed documentation: ["huyakdd.github.io/Huyak-UI"](https://huyakdd.github.io/Huyak-UI/)
+
+Packages Deployed with Github Actions to npm repo and to github repo.
