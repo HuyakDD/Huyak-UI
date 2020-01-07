@@ -15,7 +15,9 @@
     "build": "rollup -c",
     "prepublishOnly": "rm -rf lib && npm run build",
     "postbuild": "npm pack",
-    "docs:build": "styleguidist build"
+    "docs:build": "styleguidist build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "Vladimir Okun <vladimir@okun.pro> (https://okun.pro/)",
@@ -32,6 +34,10 @@
     "@babel/preset-react": "^7.0.0",
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
     "@testing-library/react": "^8.0.7",
     "babel-loader": "^8.0.6",
     "babel-plugin-emotion": "^10.0.14",
@@ -49,5 +55,6 @@
     "rollup-plugin-terser": "^5.1.1",
     "rollup-plugin-uglify": "^6.0.2",
     "webpack": "^4.38.0"
-  }
+  },
+  "dependencies": {}
 }
