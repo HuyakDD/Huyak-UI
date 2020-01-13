@@ -1,6 +1,6 @@
 {
   "name": "@hhdd/huyak-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "HuyakDD/Huyak-UI",
   "description": "",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
     "/lib"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "start": "styleguidist server",
     "build": "rollup -c",
     "prepublishOnly": "rm -rf lib && npm run build",
