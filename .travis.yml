@@ -6,12 +6,12 @@ cache:
     - node_modules
 
 before_deploy:
-  - "npm run build-storybook"
+  - "npm run docs:build"
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: storybook-static
+  local_dir: dist-docs
   on:
     branch: master
