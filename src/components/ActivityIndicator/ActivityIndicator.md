@@ -10,7 +10,7 @@ import { ActivityIndicator } from "huyak-ui";
 ```jsx
 import { ActivityIndicator, Flex } from "huyak-ui";
 
-<Flex justify="space-around" align="center">
+<Flex jc="space-around" ai="center">
     <ActivityIndicator color="#FFC107" />
     <ActivityIndicator color="rgb(220, 53, 69)"/>
     <ActivityIndicator color="#17A2B8"/>
@@ -22,7 +22,7 @@ import { ActivityIndicator, Flex } from "huyak-ui";
 ```jsx
 import { ActivityIndicator, Flex } from "huyak-ui";
 
-<Flex justify="space-around" align="center" padding="1em">
+<Flex jc="space-around" ai="center" padding="1em">
     <ActivityIndicator size="small" />
     <ActivityIndicator />
     <ActivityIndicator size="large" />
@@ -33,7 +33,7 @@ import { ActivityIndicator, Flex } from "huyak-ui";
 ```jsx
 import { ActivityIndicator, Flex } from "huyak-ui";
 
-<Flex justify="space-around" align="center">
+<Flex jc="space-around" ai="center">
     <ActivityIndicator numOfSticks="2" />
     <ActivityIndicator />
     <ActivityIndicator numOfSticks="7" />

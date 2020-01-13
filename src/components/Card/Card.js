@@ -55,7 +55,7 @@ Card.defaultProps = {
   padding: "unset",
   margin: "unset",
   shadow: "4px 4px 5px 0px rgba(0,0,0,0.59)",
-  bgColor: "white",
+  bgColor: "#363333",
   color: "#2db14b"
 };
 
