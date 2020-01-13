@@ -1,23 +1,3 @@
-import { css } from "@emotion/core";
-
-export const font = css`
-  text-transform: uppercase;
-  font-size: 1.5em;
-  font-weight: bold;
-  letter-spacing: 4px;
-`;
-
-export const shape = css`
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-`;
-
-export const primaryColors = css`
-  background: #5cdb95;
-  color: #05385b;
-`;
-
 const bgColor = "#363333";
 const secondary = "#272121";
 const secondaryText = "#D8DEDE";
@@ -43,5 +23,27 @@ const palette = {
   dark: bgColor,
   boxShadow: boxShadowColor
 };
+
+export const dimensions = {
+  boxShadow: boxShadowDimensions,
+  topBarHeight: "50px",
+  spriteOffset0: "-99px",
+  spriteOffset1: "-212px",
+  spriteOffset2: "-325px",
+  spriteOffset3: "-438px",
+  spriteOffset4: "-551px",
+  spriteOffset5: "-664px",
+  spriteOffset6: "-777px",
+  spriteOffset7: "-890px"
+};
+
+export const fonts = {
+  main: `-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif`,
+  code: `source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace`
+};
+
 
 export default palette;
