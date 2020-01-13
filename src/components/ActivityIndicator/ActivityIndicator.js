@@ -1,11 +1,10 @@
 import React from "react";
 import uuid from "uuid";
+import PropTypes from 'prop-types';
 
 import styled from "@emotion/styled";
 import { keyframes } from "@emotion/core";
 
-import PropTypes from 'prop-types';
-import pallette from "config/styles";
 
 const ActivityIndicator = props => {
   const nOfSticks = props.numOfSticks > 0 ? props.numOfSticks > 7 ? 7 : props.numOfSticks : 4;
@@ -73,9 +72,10 @@ const SingleStick = styled.div`
         animation-delay: 0.54s;
     }
 `
+
 ActivityIndicator.propTypes = {
   /** Number of sticks to animate, maxed out at 7 */
-  numOfSticks: PropTypes.number,
+  numOfSticks: PropTypes.string,
   /** Stick size: 'large', 'md', 'small'. */
   size: PropTypes.string,
   /** Stick color: Any valid CSS color. */
@@ -83,9 +83,9 @@ ActivityIndicator.propTypes = {
 };
 
 ActivityIndicator.defaultProps = {
-  numOfSticks: 4,
+  numOfSticks: "4",
   size: "md",
-  color: pallette.primary
+  color: "#2db14b"
 };
 
 export default ActivityIndicator;
